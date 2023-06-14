@@ -7,7 +7,7 @@ const Header = () => {
   const { data: session } = useSession();
 
   return (
-    <div className="w-full h-20 border-b-[1px] border-b-black font-titleFont sticky top-0 bg-white z-50 px-4">
+    <div className="w-full h-20 border-b-[1px] border-b-black font-titleFont sticky top-0 bg-[#F3D6D7] z-50 px-4">
       <div className="max-w-7xl h-full mx-auto flex justify-between items-center">
         <Link href="/">
           <div>
@@ -41,7 +41,7 @@ const Header = () => {
           ) : (
             <button
               onClick={() => signIn()}
-              className="uppercase text-sm border-[1px] border-primaryColor hover:border-secondaryColor px-4 py-1 font-semibold hover:text-white rounded-md hover:bg-secondaryColor transition-all duration-300 active:bg-yellow-600"
+              className="uppercase text-[0.5rem] sm:text-sm border-[1px] border-primaryColor hover:border-secondaryColor px-2 sm:px-4 py-1 font-semibold hover:text-white rounded-md hover:bg-secondaryColor transition-all duration-300 active:bg-yellow-600"
             >
               Sign In
             </button>
