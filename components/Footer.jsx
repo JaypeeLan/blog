@@ -12,7 +12,7 @@ import { AiOutlineCopyrightCircle } from "react-icons/ai";
 
 const Footer = () => {
   return (
-    <div className="w-full py-10 bg-bgColor text-white/80 px-4">
+    <div className="w-full py-10 bg-bgColor text-primaryColor/80 px-4">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row gap-4 justify-center items-center md:justify-between">
         <div className="flex flex-col sm:flex-row items-center gap-3">
           <a href="/">
@@ -20,7 +20,7 @@ const Footer = () => {
           </a>
           <p className="flex items-center text-sm font-titleFont gap-1">
             <AiOutlineCopyrightCircle className="mt-[1px]" />
-            pearl || all rights reserved
+            Techvellum | all rights reserved
           </p>
         </div>
 
